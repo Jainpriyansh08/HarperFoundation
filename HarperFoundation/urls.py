@@ -17,6 +17,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from HarperFoundation.views.health_check import HealthCheckView
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('health-check/', HealthCheckView.as_view(), name='health-check'),
 ]
