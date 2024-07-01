@@ -1,7 +1,9 @@
 
 # Harper Foundation
+[Harper foundation due to Alan Harper(People who have watched Two and a Half Men know what I mean)]
 
-A Razorpay payment service developed using Django, PSQL.
+CharityNet, a charity aggregator website that lists local charities, facilitates direct donations and allows users
+to create custom buckets of charities based on their preferred causes.
 
 
 
